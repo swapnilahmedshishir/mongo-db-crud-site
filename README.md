@@ -1,8 +1,10 @@
+<pre>
 This is a mongodb CRUD site 
 👉 C- creat , r- read, u-update , d-delete (crud)
 
 This site only use vanila javascript . 
 👉How to fetch javascript ?
+
 ⭐⭐⭐ fetch("url")
 .then(res => res.json())
 .then(result => {
@@ -24,3 +26,4 @@ This site only use vanila javascript .
 ⭐⭐⭐ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/userInterface/index.html");
 });
+</pre>
